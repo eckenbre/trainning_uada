@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+   <meta charset="UTF-8">
+   <title>Ejemplo de select en Angular</title>
+   <link rel="stylesheet" type="text/css" href="ejemplo.css">
+</head>
+<body>
+   
+   <input type="text" ng-model="campotexto">
+   <br />
+   {{ campotexto }} - {{ camposelect }}
+   <br />
+   <div id='div-select'>
+   <select ng-model="camposelect">
+      <option value="uno">1</option>
+      <option value="dos">2</option>
+   </select>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js"></script>
+</body>
+</html>
